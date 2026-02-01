@@ -1,4 +1,4 @@
-# 🚗 CarPricePredictor – ML-Based Used Car Price Estimation System
+# 🚗 CarPricePredictor – ML-Based Used Car Price Estimation System (EN)
 
 ## Project Overview
 
@@ -192,3 +192,63 @@ The complete project was successfully version-controlled and pushed to GitHub th
 Kaan Güner  
 Computer Engineering Student – AI & Data Science Focus  
 Project: CarPricePredictor ML Model
+
+
+
+
+
+---
+🚗 Car Price Predictor ML Model (TR)
+Bu proje, ikinci el araçların piyasa değerini tahmin etmek için geliştirilmiş, makine öğrenmesi tabanlı bir web uygulamasıdır. CatBoost Regression algoritması kullanılarak eğitilen model, araç özelliklerine göre yüksek doğrulukta fiyat tahminleri sunar.
+
+🌟 Özellikler
+Gelişmiş ML Algoritması: Kategorik verilerle yüksek performans gösteren CatBoost kütüphanesi kullanılmıştır.
+
+Kullanıcı Dostu Arayüz: Streamlit framework'ü ile oluşturulmuş interaktif ve modern bir web arayüzü.
+
+Detaylı Özellik Analizi: Marka, model, yıl, yakıt türü, vites tipi ve kilometre gibi pek çok parametreye göre analiz.
+
+Hızlı Tahmin: Eğitilmiş model (car_price_model.cbm) sayesinde anlık sonuç üretimi.
+
+🛠️ Kullanılan Teknolojiler
+Python (Ana programlama dili)
+
+CatBoost (Gradient Boosting algoritması)
+
+Streamlit (Web uygulama arayüzü)
+
+Pandas & NumPy (Veri işleme ve analiz)
+
+Scikit-learn (Veri ön işleme ve metrikler)
+
+🚀 Kurulum ve Çalıştırma
+Projeyi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Depoyu Klonlayın
+
+Bash
+git clone https://github.com/kaanguner4/CarPricePredictor-ML-Model.git
+cd CarPricePredictor-ML-Model
+2. Gerekli Kütüphaneleri Yükleyin
+
+Bash
+pip install -r requirements.txt
+3. Uygulamayı Başlatın
+
+Bash
+streamlit run app.py
+📊 Model Hakkında
+Model, data/ klasöründe bulunan veri seti üzerinde eğitilmiştir. test_and_save.py dosyası, modelin eğitim sürecini, performans metriklerini ve eğitilen modelin .cbm formatında kaydedilmesini sağlar.
+
+📂 Dosya Yapısı
+app.py: Streamlit web uygulamasının ana dosyası.
+
+car_price_model.cbm: Eğitilmiş ve kullanıma hazır CatBoost modeli.
+
+test_and_save.py: Model eğitimi ve test işlemlerini yürüten script.
+
+requirements.txt: Projenin bağımlılık listesi.
+
+data/: Veri setinin bulunduğu dizin.
+
+Bu proje Kaan Güner tarafından geliştirilmiştir.
